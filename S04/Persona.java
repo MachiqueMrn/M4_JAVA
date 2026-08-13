@@ -16,7 +16,7 @@ public class Persona {
     public String getNombre() {
         return nombre;
     }
-
+    
     // Método get
     public int getEdad() {
         return edad;
