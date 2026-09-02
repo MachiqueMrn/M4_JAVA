@@ -24,5 +24,7 @@ public class Main {
         System.out.println("=".repeat(80));
         System.out.println("Costo del envío Estándar: " + op1.calcularCosto(peso));
         System.out.println("Costo del envío Express: " + op2.calcularCosto(peso));
+
+        scanner.close();
     }
 }
